@@ -1,0 +1,11 @@
+{
+	"lema": "Food Wating Solution",
+	"forgotPassword": "Forgot Password",
+	"username": "Username",
+	"password": "Password",
+	"errorPassword": "Password must be between 5 and 8 characters",
+	"login": "Login",
+	"menu": "Menu",
+	"stores": "Stores",
+	"cart": "Cart"
+}

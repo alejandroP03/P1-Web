@@ -1,0 +1,11 @@
+{
+	"lema": "Soluciones para el desperdicio de alimentos",
+	"forgotPassword": "Olvidaste tu contraseña",
+	"username": "Nombre de usuario",
+	"password": "Contraseña",
+	"errorPassword": "La contraseña debe tener entre 5 y 8 caracteres",
+	"login": "Iniciar sesión",
+	"menu": "Menú",
+	"stores": "Tiendas",
+	"cart": "Carrito"
+}

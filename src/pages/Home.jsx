@@ -1,23 +1,27 @@
 import { Card, Link } from '@heroui/react';
 import React from 'react';
+import { FormattedMessage } from 'react-intl';
 import { CartLarge, Ladle, Shop } from 'solar-icon-set';
 
 export default function Home() {
 	const options = [
 		{
 			icon: <Ladle size={150} className='text-sec' color='sec' />,
-			label: 'Menu',
+			label: <FormattedMessage id='menu' />,
 			path: '/home/menu',
+			key: 1,
 		},
 		{
 			icon: <Shop size={150} className='text-sec' color='sec' />,
-			label: 'Stores',
+			label: <FormattedMessage id='stores' />,
 			path: '/home/stores',
+			key: 2,
 		},
 		{
 			icon: <CartLarge size={150} className='text-sec' color='sec' />,
-			label: 'Cart',
+			label: <FormattedMessage id='cart' />,
 			path: '/home/cart',
+			key: 3,
 		},
 	];
 
@@ -28,7 +32,7 @@ export default function Home() {
 				className='flex flex-row justify-center items-center gap-4 p-12 bg-sec/[0.8]'
 			>
 				{options.map(option => (
-					<Link href={option.path} size='sm'>
+					<Link href={option.path} size='sm' key={option.key}>
 						<Card
 							isPressable
 							isBlurred
